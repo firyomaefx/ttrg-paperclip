@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# API keys and tokens
+*.key
+*.pem
+*.token
+*.secret
+
+# Paperclip sensitive files
+paperclip-claimed-api-key.json
+.paperclip/instances/*/data/
+.paperclip/instances/*/db/
+.paperclip/instances/*/secrets/
+
+# GitHub skill config (contains tokens)
+.github-skill-config.yaml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+coverage/
